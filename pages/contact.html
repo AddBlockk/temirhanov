@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../css/contact/Contact.css" />
+    <link rel="stylesheet" href="../css/contact/Contact.css.map" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__container-wrapper_but">
+          <img src="/img/burger-menu.svg" width="100%" />
+        </div>
+        <a href="/index.html">
+          <img src="/img/logo.png" class="logo" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a href="/index.html" class="list-item list-item-active">
+              Главная
+            </a>
+          </li>
+          <li><a href="/pages/about.html" class="list-item"> О нас </a></li>
+          <li>
+            <a href="/pages/contact.html" class="list-item"> Контакты </a>
+          </li>
+        </ul>
+
+        <a href="/index.html" class="submit-an-application">
+          <button>Подать заявку</button>
+        </a>
+      </div>
+    </header>
+
+    <div
+      class="header__container-wrapper_modal"
+      style="transform: translate(0px, -100%); display: none">
+      <menu>
+        <ul class="wrapper_modal-list">
+          <li class="wrapper_modal-list_item">
+            <a href="/index.html" class="wrapper_modal-list_link">Главная</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="/pages/about.html" class="wrapper_modal-list_link"
+              >О нас</a
+            >
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="/pages/contact.html" class="wrapper_modal-list_link"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </menu>
+    </div>
+
+    <main class="main">
+      <section class="section0">
+        <div class="section1__container">
+          <div class="main__left-block">
+            <h1 class="main__left-block-h1">Связаться с нами</h1>
+            <a href="/" class="submit-an-application-2">
+              <button>Подать заявку</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section1">
+        <div class="section__container">
+          <div class="section__container-map">
+            <div id="map-test" class="map"></div>
+            <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+            <script src="/script.js"></script>
+          </div>
+          <div class="section__container-Info">
+            <div class="section__container-Info_item">
+              <div class="section__container-Info_item-img">
+                <img src="/img/office-building.png" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Офис</p>
+                <p class="Info_item-text_desc">
+                  Куликова 42, Россия, Астрахань
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section__container-Info_item section__container-Info_item2">
+              <div class="section__container-Info_item-img">
+                <img src="/img/globe.png" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Вебсайт</p>
+                <p class="Info_item-text_desc">
+                  https://schoolteacher.versel.app
+                </p>
+              </div>
+            </div>
+
+            <div class="section__container-Info_item">
+              <div class="section__container-Info_item-img">
+                <img src="/img/telephone.png" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Телефон</p>
+                <p class="Info_item-text_desc">+7 951 642 42 24</p>
+              </div>
+            </div>
+
+            <div
+              class="section__container-Info_item section__container-Info_item2">
+              <div class="section__container-Info_item-img">
+                <img src="/img/mail.png" width="100%" />
+              </div>
+              <div class="section__container-Info_item-text">
+                <p class="Info_item-text_title">Email</p>
+                <p class="Info_item-text_desc">schoolteacher@email.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section3__container">
+          <div class="section3__container-text">
+            <p>НАПИШИТЕ НАМ О СЕБЕ</p>
+          </div>
+          <div class="section3__container-grid">
+            <form action="">
+              <div class="section3__container-grid_inp1-item">
+                <label for="">Полное имя</label>
+                <input type="text" name="" id="" placeholder="Alex Popov" />
+              </div>
+              <div class="section3__container-grid_inp1-item">
+                <label for="">Email адрес</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="schoolteacher@email.com" />
+              </div>
+              <div class="section3__container-grid_inp2">
+                <label for="">Сообщение</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Обращение к нам" />
+              </div>
+              <div class="section3__container-grid_btn">
+                <button>Отправить сообщение</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="container-footer">
+          <div class="container-footer-left">
+            <img src="img/logo-footer.png" style="height: 66px" alt="" />
+            <div>
+              <h2>© «Школа наставничества»</h2>
+              <div>
+                <ul>
+                  <li>Новости</li>
+                  <li>Лица конкурса</li>
+                  <li>Как стать студентом?</li>
+                  <li>Критерии защиты проектов</li>
+                </ul>
+              </div>
+              <div>
+                <p>
+                  Пишите в любое время: <span>schoolteacher@email.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-footer-right">
+            <h2>При поддержке:</h2>
+            <div style="align-items: center; display: flex; gap: 10px">
+              <img src="/img/support-1.png" alt="" style="height: 54px" /><img
+                src="/img/support-2.png"
+                style="height: 54px"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/burger-menu.js"></script>
+  </body>
+</html>
